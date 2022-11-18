@@ -269,9 +269,19 @@ li.nav-link {
 }
 
 li.nav-link:hover {
-  background-color: #111;
+  background-color: #cc1;
 }
 
 li.active {
-  background-color: palevioletred;
+  background-color: #cc1;
+}
+
+div.active {
+  background-color: #cc1;
+}
+
+@media only screen and (max-width: 600px) {
+  li.nav-link {
+    padding: 8px 10px;
+  }
 }
